@@ -1,3 +1,3 @@
 SUZI A-music-site
 <li>very general!</li>
-not a product, just a modular frame to change and sell
+<li>not a <abbr>product</abbr>, just a <ins>modular frame<ins> to change and sell</li>
