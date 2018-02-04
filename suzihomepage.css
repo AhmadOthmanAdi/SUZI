@@ -6,59 +6,41 @@ body{
 
 .navbar{
     display: inline-flex;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size:110%;
     position: absolute;
-    background-color: transparent;
-    opacity: 0.4;
     left: 28%;
     top: 8%;
     z-index: 1;
-    width: 10%;  
+    background-color: transparent;
+    text-align: center;
+
 }
 
-.navbar:hover{
-    opacity: 0.8;
+.navbar-toggler{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-decoration: none;
+    font-size:110%;
+    font-weight: bolder;
+    text-align: center;
+    opacity: 0.4;
+
 }
+
+
+.navbar-text{
+    display: flex;
+    width: 100%;
+}
+
 .nav-link{
     color: black;
     padding: 4%;
-    background-color:white;
-}
-/*Blogpage Navbar CSs*/
-.blog-nav{
-    display: inline-flex;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size:110%;
-    position: absolute;
-    background-color: transparent;
+    background-color:transparent;
     opacity: 0.4;
-    left: 5%;
-    top: 8%;
-    z-index: 1;
-    width: 10%;  
+
 }
-/*Contact page Navbar CSs*/
-.contact-nav{
-    display: inline-flex;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size:110%;
-    position: absolute;
-    background-color: transparent;
-    opacity: 0.4;
-    left: 5%;
-    top: 8%;
-    z-index: 1;
-    width: 10%;  
+.nav-link:hover{
+    opacity:1;
+    font-size:140%;
 }
 /*Container*/
 #papaContainer{
@@ -129,20 +111,20 @@ color: rgb(85, 85, 85) ;
 /*Blog page Container*/
 .blog-conatiner{
     position: relative;
-    top:100px;
+    top:120px;
     left: 0%;
     width: 100%;
     height: 30%;
     background-color: rgba(187, 236, 233, 0.356);
-
+    
 }
 
 /*Contact page Container*/
 .contact-conatiner{
     position: relative;
-    top:100px;
+    top:120px;
     left: 0%;
-    width: 50%;
+    width: 100%;
     height: 30%;
    background-color: rgba(187, 236, 233, 0.356);
 
