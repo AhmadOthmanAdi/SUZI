@@ -1,0 +1,135 @@
+
+
+/*NAV BAR COLOR DaNCE ANIMATION--minimised*/
+
+	@-webkit-keyframes colorchange {
+		0%	 {
+			
+			color: #9dbbda;
+		}
+		
+		50% {
+			
+			color: #000000;
+		}
+			50% {
+        
+        color: #a38058;
+      }
+      
+        }
+
+
+    .navbar-default {  
+    position: fixed;
+    width: 100%;
+    background-size: 100%;
+    background-position-x: 15em;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-color: #000000;
+    border-color: transparent;
+    transition: none;
+    height: 50%;
+    transition: all 0.5s ease;
+}
+
+.navbar-default:hover{
+background-color: #30312f
+}
+
+ .navbar-brand {
+    animation:colorchange 1s infinite alternate-reverse;
+}
+
+.navbar-brand {	
+    font-size: 200%;
+    font-family: 'Contrail One', cursive;
+    color: #fceded;
+    position: absolute;
+    top: 13px;
+    left: 40%;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 5px;					
+    
+}
+.btn-group{
+    display: block;
+    left: 30%;
+    top: 18%;
+}
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+p3{
+    text-decoration: underline;
+}
+P3:hover {
+color: #a0ccf1;
+cursor: pointer;
+}
+
+.navbar-left input {
+    position: fixed;		
+    outline: none;
+    top: 13px;
+    left: 60%;
+    margin: 0 auto; 
+    letter-spacing: 2px;			
+    opacity: 0.8;
+    text-align:left;
+    font-family: 'Contrail One', cursive;
+    font-size:15px ;
+    border:groove 3px;
+    border-radius: 70px;
+    background-color: #ffffff;
+    border-color: #0000000a;        
+}
+
+.form-control::-webkit-input-placeholder {
+    text-decoration: underline;  
+    font-weight: lighter;
+        color: #000000;
+        -webkit-transition: opacity 0.35s ease-in-out;
+        transition: opacity 0.35s ease-in-out;
+    }
+    
+#Orang{
+    display:block;
+    position: fixed;		
+    outline: none;
+    top: 18px;
+    left: 10%;
+    margin: 0%;
+    letter-spacing: 2px;		
+    color: rgba(231, 125, 125, 0.692) ;	
+    text-decoration: underline;
+    font-size:130%;
+	font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 100px;
+}
+
+#Orang:hover{
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+
+
+/* Disabled at the moment *
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    -or: #000000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #000000;
+    background-color: #e4f6ac;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #000000;
+    background-color: #e4f6ac;
+}
+/*nothing to see here*/
+
